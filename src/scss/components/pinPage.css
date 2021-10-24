@@ -1,0 +1,707 @@
+.mediaViewInfo {
+    --web-view-name: pin page;
+    --web-view-id: pin_page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: pin_page;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#pin_page {
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    overflow: hidden;
+    cursor: pointer;
+    --web-view-name: pin page;
+    --web-view-id: pin_page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#Rectangle_9 {
+    fill: rgba(112,112,112,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_9 {
+    position: absolute;
+    overflow: visible;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+}
+#comments {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    left: 31px;
+    top: 327px;
+    overflow: visible;
+}
+#commentaire {
+    position: absolute;
+    width: 352px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_10 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_10 {
+    position: absolute;
+    overflow: visible;
+    width: 308px;
+    height: 117px;
+    left: 44px;
+    top: 0px;
+}
+#avatar {
+    position: absolute;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 18px;
+    overflow: visible;
+}
+#Ellipse_5 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_5 {
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+}
+#Ellipse_4 {
+    fill: rgba(84,145,246,1);
+}
+.Ellipse_4 {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 53px;
+    left: 16px;
+    top: 15px;
+}
+#Icon_awesome-user-alt {
+    fill: rgba(226,221,221,1);
+}
+.Icon_awesome-user-alt {
+    overflow: visible;
+    position: absolute;
+    width: 27.375px;
+    height: 27.375px;
+    left: 30.497px;
+    top: 27.068px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con {
+    left: 99px;
+    top: 18px;
+    position: absolute;
+    overflow: hidden;
+    width: 240px;
+    height: 80px;
+    text-align: left;
+    font-family: Damascus;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(112,112,112,1);
+}
+#happy {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 239px;
+    top: 102px;
+    overflow: visible;
+}
+#Ellipse_1 {
+    fill: rgba(84,247,130,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_material-mood {
+    fill: rgba(255,255,255,1);
+}
+.Icon_material-mood {
+    overflow: visible;
+    position: absolute;
+    width: 16.969px;
+    height: 16.969px;
+    left: 7.986px;
+    top: 7.17px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#sad {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 293px;
+    top: 102px;
+    overflow: visible;
+}
+#Ellipse_1_ {
+    fill: rgba(246,84,84,1);
+}
+.Ellipse_1_ {
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_material-mood-bad {
+    fill: rgba(255,252,252,1);
+}
+.Icon_material-mood-bad {
+    overflow: visible;
+    position: absolute;
+    width: 17.169px;
+    height: 17.169px;
+    left: 8.76px;
+    top: 6.884px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#commentaire_ {
+    position: absolute;
+    width: 352px;
+    height: 134px;
+    left: 0px;
+    top: 152px;
+    overflow: visible;
+}
+#Rectangle_10_ {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_10_ {
+    position: absolute;
+    overflow: visible;
+    width: 308px;
+    height: 118px;
+    left: 44px;
+    top: 0px;
+}
+#avatar_ {
+    position: absolute;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 18px;
+    overflow: visible;
+}
+#Ellipse_5_ {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_5_ {
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+}
+#Ellipse_4_ {
+    fill: rgba(84,145,246,1);
+}
+.Ellipse_4_ {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 52px;
+    left: 16px;
+    top: 16px;
+}
+#Icon_awesome-user-alt_ {
+    fill: rgba(226,221,221,1);
+}
+.Icon_awesome-user-alt_ {
+    overflow: visible;
+    position: absolute;
+    width: 27.375px;
+    height: 27.375px;
+    left: 30.497px;
+    top: 27.364px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con_ba {
+    left: 99px;
+    top: 18px;
+    position: absolute;
+    overflow: hidden;
+    width: 240px;
+    height: 80px;
+    text-align: left;
+    font-family: Damascus;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(112,112,112,1);
+}
+#happy_bb {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 239px;
+    top: 102px;
+    overflow: visible;
+}
+#Ellipse_1_bc {
+    fill: rgba(84,247,130,1);
+}
+.Ellipse_1_bc {
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_material-mood_bd {
+    fill: rgba(255,255,255,1);
+}
+.Icon_material-mood_bd {
+    overflow: visible;
+    position: absolute;
+    width: 16.969px;
+    height: 16.969px;
+    left: 7.986px;
+    top: 7.466px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#sad_be {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 293px;
+    top: 102px;
+    overflow: visible;
+}
+#Ellipse_1_bf {
+    fill: rgba(246,84,84,1);
+}
+.Ellipse_1_bf {
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_material-mood-bad_bg {
+    fill: rgba(255,252,252,1);
+}
+.Icon_material-mood-bad_bg {
+    overflow: visible;
+    position: absolute;
+    width: 17.169px;
+    height: 17.169px;
+    left: 8.76px;
+    top: 7.179px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#commentaire_bh {
+    position: absolute;
+    width: 352px;
+    height: 133px;
+    left: 0px;
+    top: 305px;
+    overflow: visible;
+}
+#Rectangle_10_bi {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_10_bi {
+    position: absolute;
+    overflow: visible;
+    width: 308px;
+    height: 117px;
+    left: 44px;
+    top: 0px;
+}
+#avatar_bj {
+    position: absolute;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 17px;
+    overflow: visible;
+}
+#Ellipse_5_bk {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_5_bk {
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+}
+#Ellipse_4_bl {
+    fill: rgba(84,145,246,1);
+}
+.Ellipse_4_bl {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 53px;
+    left: 16px;
+    top: 16px;
+}
+#Icon_awesome-user-alt_bm {
+    fill: rgba(226,221,221,1);
+}
+.Icon_awesome-user-alt_bm {
+    overflow: visible;
+    position: absolute;
+    width: 27.375px;
+    height: 27.375px;
+    left: 30.497px;
+    top: 27.659px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con_bn {
+    left: 99px;
+    top: 17px;
+    position: absolute;
+    overflow: hidden;
+    width: 240px;
+    height: 80px;
+    text-align: left;
+    font-family: Damascus;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(112,112,112,1);
+}
+#happy_bo {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 239px;
+    top: 101px;
+    overflow: visible;
+}
+#Ellipse_1_bp {
+    fill: rgba(84,247,130,1);
+}
+.Ellipse_1_bp {
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_material-mood_bq {
+    fill: rgba(255,255,255,1);
+}
+.Icon_material-mood_bq {
+    overflow: visible;
+    position: absolute;
+    width: 16.969px;
+    height: 16.969px;
+    left: 7.986px;
+    top: 7.761px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#sad_br {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 293px;
+    top: 101px;
+    overflow: visible;
+}
+#Ellipse_1_bs {
+    fill: rgba(246,84,84,1);
+}
+.Ellipse_1_bs {
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_material-mood-bad_bt {
+    fill: rgba(255,252,252,1);
+}
+.Icon_material-mood-bad_bt {
+    overflow: visible;
+    position: absolute;
+    width: 17.169px;
+    height: 17.169px;
+    left: 8.76px;
+    top: 7.474px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_11 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_11 {
+    position: absolute;
+    overflow: visible;
+    width: 341px;
+    height: 236px;
+    left: 42px;
+    top: 58px;
+}
+#INCENDIE {
+    left: 124px;
+    top: 80px;
+    position: absolute;
+    overflow: visible;
+    width: 168px;
+    height: 40px;
+    text-align: left;
+    font-family: Neufreit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+}
+#Rectangle_12 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(255,252,252,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_12 {
+    position: absolute;
+    overflow: visible;
+    width: 13px;
+    height: 36px;
+    left: 401px;
+    top: 729px;
+}
+#Lorem_ipsum_dolor_sit_amet_con_bx {
+    left: 88px;
+    top: 136px;
+    position: absolute;
+    overflow: hidden;
+    width: 276px;
+    height: 126px;
+    text-align: left;
+    font-family: Damascus;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(112,112,112,1);
+}
+#Groupe_5 {
+    position: absolute;
+    width: 88px;
+    height: 83px;
+    left: 24px;
+    top: 42px;
+    overflow: visible;
+}
+#avatar_bz {
+    position: absolute;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Trac_13 {
+    fill: rgba(246,84,84,1);
+}
+.Trac_13 {
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_7 {
+    position: absolute;
+    width: 59.365px;
+    height: 59.365px;
+    left: 14.317px;
+    top: 11.817px;
+    overflow: visible;
+}
+#Ellipse_3 {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_3 {
+    position: absolute;
+    overflow: visible;
+    width: 59.365px;
+    height: 59.366px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_awesome-exclamation {
+    fill: rgba(112,112,112,1);
+}
+.Icon_awesome-exclamation {
+    overflow: visible;
+    position: absolute;
+    width: 11.288px;
+    height: 36.122px;
+    left: 23.734px;
+    top: 11.621px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Btn-3 {
+    position: absolute;
+    width: 251px;
+    height: 64px;
+    left: 82px;
+    top: 794px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: view;
+    --web-action-target: add_comment;
+    cursor: pointer;
+}
+#Rectangle_2 {
+    fill: rgba(84,247,130,1);
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 251px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+#LOGIN {
+    left: 62px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 143px;
+    height: 28px;
+    text-align: left;
+    font-family: VCR OSD Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(255,255,255,1);
+}
+#close {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 362px;
+    top: 9px;
+    overflow: visible;
+    cursor: pointer;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: view;
+    --web-action-target: Map;
+}
+#Rectangle_8 {
+    fill: rgba(84,145,246,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_8 {
+    position: absolute;
+    overflow: visible;
+    width: 42px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_metro-cross {
+    fill: rgba(255,255,255,1);
+}
+.Icon_metro-cross {
+    overflow: visible;
+    position: absolute;
+    width: 25.428px;
+    height: 25.428px;
+    left: 8.357px;
+    top: 8.215px;
+    transform: matrix(1,0,0,1,0,0);
+}

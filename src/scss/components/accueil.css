@@ -1,0 +1,69 @@
+#accueil_title_container{
+   width: 100%;
+    height: 80vh;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accueil_title{
+    font-size: 4em;
+}
+
+.char{
+    font-size: 60px;
+    height: 40px;
+    animation: transition 3s ease-in-out  
+}
+#accueil_subtitle_container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -295px;
+}
+.char1{
+    font-size: 20px;
+    height: 40px;
+    animation: transition 4s ease-in-out  
+}
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: perspective(500px) translate3d(-100px, 300px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
+#logo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40%; 
+    margin-top: -204px;   
+    width: 70px;
+    height: 90px;
+    -webkit-animation: opacity 8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: opacity 8s; /* Firefox < 16 */
+        -ms-animation: opacity 8s; /* Internet Explorer */
+         -o-animation: opacity 8s; /* Opera < 12.1 */
+            animation: opacity 8s;
+}
+
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+.passant_button{
+    margin-bottom: 20px;
+}

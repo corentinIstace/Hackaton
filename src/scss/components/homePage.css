@@ -1,0 +1,596 @@
+.mediaViewInfo {
+    --web-view-name: Map;
+    --web-view-id: Map;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    --web-is-overlay: true;
+}
+:root {
+    --web-view-ids: Map;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Map {
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    overflow: hidden;
+    cursor: pointer;
+    --web-view-name: Map;
+    --web-view-id: Map;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    --web-is-overlay: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#Rectangle_9 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_9 {
+    position: absolute;
+    overflow: visible;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+}
+#Composant_1__1 {
+    position: absolute;
+    width: 414px;
+    height: 846px;
+    left: 0px;
+    top: 50px;
+    overflow: visible;
+}
+#map10241024_1 {
+    position: absolute;
+    width: 414px;
+    height: 846px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#HappyStreet {
+    left: 113px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 190px;
+    height: 34px;
+    text-align: left;
+    font-family: Neufreit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#plus {
+    position: absolute;
+    width: 54.506px;
+    height: 52.11px;
+    left: 179.747px;
+    top: 825.945px;
+    overflow: visible;
+    cursor: pointer;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: add_pin.html;
+}
+#Trac_5 {
+    fill: rgba(84,247,130,1);
+}
+.Trac_5 {
+    overflow: visible;
+    position: absolute;
+    width: 54.506px;
+    height: 52.11px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-plus {
+    fill: rgba(255,253,253,1);
+}
+.Icon_awesome-plus {
+    overflow: visible;
+    position: absolute;
+    width: 18.868px;
+    height: 18.868px;
+    left: 17.52px;
+    top: 16.621px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_1 {
+    position: absolute;
+    width: 385.884px;
+    height: 50px;
+    left: 14px;
+    top: 827px;
+    overflow: visible;
+}
+#home {
+    position: absolute;
+    width: 53.884px;
+    height: 49.529px;
+    left: 332px;
+    top: 0px;
+    overflow: visible;
+}
+#Trac_10 {
+    fill: rgba(84,145,246,1);
+}
+.Trac_10 {
+    overflow: visible;
+    position: absolute;
+    width: 53.884px;
+    height: 49.529px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Icon_material-home {
+    fill: rgba(255,253,253,1);
+}
+.Icon_material-home {
+    overflow: visible;
+    position: absolute;
+    width: 24.065px;
+    height: 20.455px;
+    left: 14.909px;
+    top: 14.537px;
+    transform: matrix(1,0,0,1,0,0);
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Street_page.html;
+    cursor: pointer;
+}
+#smiley {
+    position: absolute;
+    width: 54px;
+    height: 50px;
+    left: 249px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: profile.html;
+    cursor: pointer;
+}
+#Trac_11 {
+    fill: rgba(84,145,246,1);
+}
+.Trac_11 {
+    overflow: visible;
+    position: absolute;
+    width: 54px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Icon_feather-smile {
+    position: absolute;
+    width: 20.455px;
+    height: 20.455px;
+    left: 18.025px;
+    top: 15.008px;
+    overflow: visible;
+}
+#Trac_6 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Trac_6 {
+    overflow: visible;
+    position: absolute;
+    width: 23.455px;
+    height: 23.455px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Trac_7 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Trac_7 {
+    overflow: visible;
+    position: absolute;
+    width: 12.382px;
+    height: 5.646px;
+    left: 6.137px;
+    top: 12.273px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Trac_8 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Trac_8 {
+    overflow: visible;
+    position: absolute;
+    width: 3.01px;
+    height: 3px;
+    left: 7.159px;
+    top: 7.159px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Trac_9 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Trac_9 {
+    overflow: visible;
+    position: absolute;
+    width: 3.01px;
+    height: 3px;
+    left: 13.296px;
+    top: 7.159px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#loupe {
+    position: absolute;
+    width: 54px;
+    height: 50px;
+    left: 83px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: search_page.html;
+    cursor: pointer;
+}
+#Rectangle_6 {
+    fill: rgba(84,145,246,1);
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 54px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_open-magnifying-glass {
+    fill: rgba(255,255,255,1);
+}
+.Icon_open-magnifying-glass {
+    overflow: visible;
+    position: absolute;
+    width: 20.455px;
+    height: 20.455px;
+    left: 16.661px;
+    top: 15.008px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#loupe_ba {
+    position: absolute;
+    width: 54px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_6_bb {
+    fill: rgba(84,145,246,1);
+}
+.Rectangle_6_bb {
+    position: absolute;
+    overflow: visible;
+    width: 54px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_awesome-location-arrow {
+    fill: rgba(255,252,252,1);
+}
+.Icon_awesome-location-arrow {
+    overflow: visible;
+    position: absolute;
+    width: 20.07px;
+    height: 20.07px;
+    left: 16.965px;
+    top: 14.965px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_2 {
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 196.808px;
+    top: 133.86px;
+    overflow: visible;
+}
+#Icon_map-map-pin {
+    fill: rgba(244,207,86,1);
+}
+.Icon_map-map-pin {
+    overflow: visible;
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_18 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 5.192px;
+    top: 4.14px;
+    overflow: visible;
+}
+#Ellipse_3 {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_3 {
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_awesome-star {
+    fill: rgba(112,112,112,1);
+}
+.Icon_awesome-star {
+    overflow: visible;
+    position: absolute;
+    width: 12.911px;
+    height: 12.357px;
+    left: 4.927px;
+    top: 4.647px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_6 {
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 103.808px;
+    top: 525.86px;
+    overflow: visible;
+}
+#Icon_map-map-pin_bj {
+    fill: rgba(252,144,239,1);
+}
+.Icon_map-map-pin_bj {
+    overflow: visible;
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_15 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 5.192px;
+    top: 4.14px;
+    overflow: visible;
+}
+#Ellipse_3_bl {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_3_bl {
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_awesome-heart {
+    fill: rgba(112,112,112,1);
+}
+.Icon_awesome-heart {
+    overflow: visible;
+    position: absolute;
+    width: 12.392px;
+    height: 10.843px;
+    left: 5.304px;
+    top: 6.079px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_3 {
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 301.808px;
+    top: 262.86px;
+    overflow: visible;
+}
+#Icon_map-map-pin_bo {
+    fill: rgba(84,247,130,1);
+}
+.Icon_map-map-pin_bo {
+    overflow: visible;
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_17 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 5.192px;
+    top: 4.14px;
+    overflow: visible;
+}
+#Ellipse_3_bq {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_3_bq {
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_awesome-tree {
+    fill: rgba(112,112,112,1);
+}
+.Icon_awesome-tree {
+    overflow: visible;
+    position: absolute;
+    width: 10.426px;
+    height: 13.902px;
+    left: 6.169px;
+    top: 4.304px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_4 {
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 96.426px;
+    top: 393.308px;
+    overflow: visible;
+}
+#Icon_map-map-pin_bt {
+    fill: rgba(84,145,246,1);
+}
+.Icon_map-map-pin_bt {
+    overflow: visible;
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_16 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 5.192px;
+    top: 4.14px;
+    overflow: visible;
+}
+#Ellipse_3_bv {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_3_bv {
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+#Icon_awesome-hand-holding-hear {
+    fill: rgba(112,112,112,1);
+}
+.Icon_awesome-hand-holding-hear {
+    overflow: visible;
+    position: absolute;
+    width: 12.938px;
+    height: 11.5px;
+    left: 5.031px;
+    top: 5.75px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_5 {
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 229.956px;
+    top: 460.308px;
+    overflow: visible;
+    cursor: pointer;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: pin_click___1.html;
+}
+#Icon_map-map-pin_by {
+    fill: rgba(246,84,84,1);
+}
+.Icon_map-map-pin_by {
+    overflow: visible;
+    position: absolute;
+    width: 33.147px;
+    height: 54.692px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_3_bz {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_3_bz {
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    height: 23px;
+    left: 5.192px;
+    top: 4.14px;
+}
+#Icon_awesome-exclamation {
+    fill: rgba(112,112,112,1);
+}
+.Icon_awesome-exclamation {
+    overflow: visible;
+    position: absolute;
+    width: 4.373px;
+    height: 13.995px;
+    left: 14.387px;
+    top: 8.642px;
+    transform: matrix(1,0,0,1,0,0);
+}

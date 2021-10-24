@@ -1,0 +1,777 @@
+@media (min-width: 414px) {
+	.mediaViewInfo {
+		--web-view-name: pin click – 1;
+		--web-view-id: pin_click__1;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+		--web-is-overlay: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#pin_click__1 {
+		position: absolute;
+		display: block;
+		width: 414px;
+		height: 896px;
+		overflow: hidden;
+		cursor: pointer;
+		--web-view-name: pin click – 1;
+		--web-view-id: pin_click__1;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+		--web-is-overlay: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Rectangle_9 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 896px;
+		left: 0px;
+		top: 0px;
+	}
+	#HappyStreet {
+		left: 113px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		height: 34px;
+		text-align: left;
+		font-family: Neufreit;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(112,112,112,1);
+	}
+	#Composant_1__1 {
+		position: absolute;
+		width: 414px;
+		height: 846px;
+		left: 0px;
+		top: 50px;
+		overflow: visible;
+	}
+	#map10241024_1 {
+		position: absolute;
+		width: 414px;
+		height: 846px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Groupe_5 {
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 194.011px;
+		top: 126.448px;
+		overflow: visible;
+	}
+	#Icon_map-map-pin {
+		fill: rgba(246,84,84,1);
+	}
+	.Icon_map-map-pin {
+		overflow: visible;
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_3 {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 5.192px;
+		top: 4.14px;
+	}
+	#Icon_awesome-exclamation {
+		fill: rgba(112,112,112,1);
+	}
+	.Icon_awesome-exclamation {
+		overflow: visible;
+		position: absolute;
+		width: 4.373px;
+		height: 13.995px;
+		left: 14.387px;
+		top: 8.642px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_4 {
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 60.482px;
+		top: 59.448px;
+		overflow: visible;
+	}
+	#Icon_map-map-pin_y {
+		fill: rgba(84,145,246,1);
+	}
+	.Icon_map-map-pin_y {
+		overflow: visible;
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_3_z {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_3_z {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 5.192px;
+		top: 4.14px;
+	}
+	#Icon_awesome-hand-holding-hear {
+		fill: rgba(112,112,112,1);
+	}
+	.Icon_awesome-hand-holding-hear {
+		overflow: visible;
+		position: absolute;
+		width: 12.938px;
+		height: 11.5px;
+		left: 10.223px;
+		top: 9.89px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_3 {
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 265.864px;
+		top: -71px;
+		overflow: visible;
+	}
+	#Icon_map-map-pin_ {
+		fill: rgba(84,247,130,1);
+	}
+	.Icon_map-map-pin_ {
+		overflow: visible;
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_3_ {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_3_ {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 5.192px;
+		top: 4.14px;
+	}
+	#Icon_awesome-tree {
+		fill: rgba(112,112,112,1);
+	}
+	.Icon_awesome-tree {
+		overflow: visible;
+		position: absolute;
+		width: 10.426px;
+		height: 13.902px;
+		left: 11.361px;
+		top: 8.444px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_6 {
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 67.864px;
+		top: 192px;
+		overflow: visible;
+	}
+	#Icon_map-map-pin_ba {
+		fill: rgba(252,144,239,1);
+	}
+	.Icon_map-map-pin_ba {
+		overflow: visible;
+		position: absolute;
+		width: 33.147px;
+		height: 54.692px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_3_ba {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_3_ba {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 5.192px;
+		top: 4.14px;
+	}
+	#Icon_awesome-heart {
+		fill: rgba(112,112,112,1);
+	}
+	.Icon_awesome-heart {
+		overflow: visible;
+		position: absolute;
+		width: 12.392px;
+		height: 10.843px;
+		left: 10.496px;
+		top: 10.218px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#modal {
+		fill: rgba(112,112,112,1);
+	}
+	.modal {
+		position: absolute;
+		overflow: visible;
+		width: 323px;
+		height: 615px;
+		left: 46px;
+		top: 181px;
+	}
+	#existance {
+		position: absolute;
+		width: 189px;
+		height: 43px;
+		left: 113px;
+		top: 669px;
+		overflow: visible;
+	}
+	#Trac_12 {
+		fill: rgba(246,84,84,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_12 {
+		overflow: visible;
+		position: absolute;
+		width: 189px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n_NEXISTE_PLUS {
+		left: 15px;
+		top: 14px;
+		position: absolute;
+		overflow: visible;
+		width: 155px;
+		height: 16px;
+		text-align: center;
+		font-family: VCR OSD Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#existance_bd {
+		position: absolute;
+		width: 189px;
+		height: 43px;
+		left: 113px;
+		top: 722px;
+		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: view;
+		--web-action-target: street_page;
+		cursor: pointer;
+	}
+	#Trac_12_be {
+		fill: rgba(84,247,130,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_12_be {
+		overflow: visible;
+		position: absolute;
+		width: 189px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#DISCUSSION {
+		left: 15px;
+		top: 14px;
+		position: absolute;
+		overflow: visible;
+		width: 155px;
+		height: 16px;
+		text-align: center;
+		font-family: VCR OSD Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#ALERTEDANGER {
+		left: 87px;
+		top: 255px;
+		position: absolute;
+		overflow: visible;
+		width: 242px;
+		height: 34px;
+		text-align: left;
+		font-family: Neufreit;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(255,253,253,1);
+	}
+	#Lorem_ipsum_dolor_sit_amet_con {
+		left: 87px;
+		top: 346px;
+		position: absolute;
+		overflow: hidden;
+		width: 242px;
+		height: 204px;
+		text-align: center;
+		font-family: VCR OSD Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#sad {
+		position: absolute;
+		width: 59px;
+		height: 56px;
+		left: 243px;
+		top: 579px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: rgba(246,84,84,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		height: 56px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_material-mood-bad {
+		fill: rgba(255,252,252,1);
+	}
+	.Icon_material-mood-bad {
+		overflow: visible;
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 14.5px;
+		top: 13px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#happy {
+		position: absolute;
+		width: 59px;
+		height: 56px;
+		left: 113px;
+		top: 579px;
+		overflow: visible;
+	}
+	#Ellipse_1_bm {
+		fill: rgba(84,247,130,1);
+	}
+	.Ellipse_1_bm {
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		height: 56px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_material-mood {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-mood {
+		overflow: visible;
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 14.5px;
+		top: 13px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#opinion {
+		position: absolute;
+		width: 66.294px;
+		height: 109.383px;
+		left: 173.853px;
+		top: 125.86px;
+		overflow: visible;
+	}
+	#Icon_map-map-pin_bp {
+		fill: rgba(246,84,84,1);
+	}
+	.Icon_map-map-pin_bp {
+		overflow: visible;
+		position: absolute;
+		width: 66.294px;
+		height: 109.383px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_3_bq {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_3_bq {
+		position: absolute;
+		overflow: visible;
+		width: 46px;
+		height: 46px;
+		left: 10.383px;
+		top: 8.279px;
+	}
+	#Icon_awesome-exclamation_br {
+		fill: rgba(112,112,112,1);
+	}
+	.Icon_awesome-exclamation_br {
+		overflow: visible;
+		position: absolute;
+		width: 8.747px;
+		height: 27.99px;
+		left: 28.774px;
+		top: 17.284px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#DATEHEURE {
+		left: 104px;
+		top: 310px;
+		position: absolute;
+		overflow: visible;
+		width: 199px;
+		height: 16px;
+		text-align: center;
+		font-family: VCR OSD Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#plus {
+		position: absolute;
+		width: 54.506px;
+		height: 52.11px;
+		left: 179.747px;
+		top: 825.945px;
+		overflow: visible;
+	}
+	#Trac_5 {
+		fill: rgba(84,247,130,1);
+	}
+	.Trac_5 {
+		overflow: visible;
+		position: absolute;
+		width: 54.506px;
+		height: 52.11px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-plus {
+		fill: rgba(255,253,253,1);
+	}
+	.Icon_awesome-plus {
+		overflow: visible;
+		position: absolute;
+		width: 18.868px;
+		height: 18.868px;
+		left: 17.52px;
+		top: 16.621px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_1 {
+		position: absolute;
+		width: 385.884px;
+		height: 50px;
+		left: 14px;
+		top: 827px;
+		overflow: visible;
+	}
+	#home {
+		position: absolute;
+		width: 53.884px;
+		height: 49.529px;
+		left: 332px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_10 {
+		fill: rgba(84,145,246,1);
+	}
+	.Trac_10 {
+		overflow: visible;
+		position: absolute;
+		width: 53.884px;
+		height: 49.529px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-home {
+		fill: rgba(255,253,253,1);
+	}
+	.Icon_material-home {
+		overflow: visible;
+		position: absolute;
+		width: 24.065px;
+		height: 20.455px;
+		left: 14.909px;
+		top: 14.537px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#smiley {
+		position: absolute;
+		width: 54px;
+		height: 50px;
+		left: 249px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Trac_11 {
+		fill: rgba(84,145,246,1);
+	}
+	.Trac_11 {
+		overflow: visible;
+		position: absolute;
+		width: 54px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_feather-smile {
+		position: absolute;
+		width: 20.455px;
+		height: 20.455px;
+		left: 18.025px;
+		top: 15.008px;
+		overflow: visible;
+	}
+	#Trac_6 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_6 {
+		overflow: visible;
+		position: absolute;
+		width: 23.455px;
+		height: 23.455px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_7 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_7 {
+		overflow: visible;
+		position: absolute;
+		width: 12.382px;
+		height: 5.646px;
+		left: 6.137px;
+		top: 12.273px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_8 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_8 {
+		overflow: visible;
+		position: absolute;
+		width: 3.01px;
+		height: 3px;
+		left: 7.159px;
+		top: 7.159px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Trac_9 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Trac_9 {
+		overflow: visible;
+		position: absolute;
+		width: 3.01px;
+		height: 3px;
+		left: 13.296px;
+		top: 7.159px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#loupe {
+		position: absolute;
+		width: 54px;
+		height: 50px;
+		left: 83px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_6 {
+		fill: rgba(84,145,246,1);
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_open-magnifying-glass {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_open-magnifying-glass {
+		overflow: visible;
+		position: absolute;
+		width: 20.455px;
+		height: 20.455px;
+		left: 16.661px;
+		top: 15.008px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#loupe_ca {
+		position: absolute;
+		width: 54px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_6_cb {
+		fill: rgba(84,145,246,1);
+	}
+	.Rectangle_6_cb {
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-location-arrow {
+		fill: rgba(255,252,252,1);
+	}
+	.Icon_awesome-location-arrow {
+		overflow: visible;
+		position: absolute;
+		width: 20.07px;
+		height: 20.07px;
+		left: 16.965px;
+		top: 14.965px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#close {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		left: 313px;
+		top: 193px;
+		overflow: visible;
+		transition: all 0.3s ease-out;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Map;
+		cursor: pointer;
+	}
+	#Rectangle_8 {
+		fill: rgba(84,145,246,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_metro-cross {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_metro-cross {
+		overflow: visible;
+		position: absolute;
+		width: 25.428px;
+		height: 25.428px;
+		left: 8.357px;
+		top: 8.215px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+}

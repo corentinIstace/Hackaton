@@ -1,0 +1,299 @@
+#logo{
+	width: 70px;
+	height: 90px;
+	margin: auto;
+}
+.mediaViewInfo {
+	--web-view-name: Accueil;
+	--web-view-id: Accueil;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Accueil;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Accueil {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Accueil;
+	--web-view-id: Accueil;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#HappyStreet {
+	left: 45px;
+	top: 172px;
+	position: absolute;
+	overflow: visible;
+	width: 325px;
+	height: 62px;
+	text-align: left;
+	font-family: Neufreit;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 54px;
+	color: rgba(112,112,112,1);
+}
+#charging-bar {
+	position: absolute;
+	width: 617px;
+	height: 24px;
+	left: 45px;
+	top: 299px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#Trac_1_t {
+	fill: url(#Trac_1_t);
+}
+.Trac_1_t {
+	overflow: visible;
+	position: absolute;
+	width: 604px;
+	height: 3.015px;
+	left: 13px;
+	top: 10.492px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Btn-1 {
+	position: absolute;
+	width: 251px;
+	height: 63px;
+	left: 82px;
+	top: 433px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#Rectangle_2 {
+	fill: rgba(84,145,246,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+}
+#CONNECTION {
+	left: 29px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 210px;
+	height: 28px;
+	text-align: left;
+	font-family: VCR OSD Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(255,255,255,1);
+}
+#Btn-2 {
+	position: absolute;
+	width: 288px;
+	height: 64px;
+	left: 82px;
+	top: 518px;
+	overflow: visible;
+}
+#Rectangle_2_y {
+	fill: rgba(84,247,130,1);
+}
+.Rectangle_2_y {
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	height: 64px;
+	left: 0px;
+	top: 0px;
+}
+#LOGIN {
+	left: 23px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 266px;
+	height: 28px;
+	text-align: left;
+	font-family: VCR OSD Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(255,255,255,1);
+}
+#socials {
+	position: absolute;
+	width: 251px;
+	height: 56px;
+	left: 82px;
+	top: 681px;
+	overflow: visible;
+}
+#twitter {
+	position: absolute;
+	width: 59px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(247,190,84,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_awesome-twitter {
+	fill: rgba(247,190,84,1);
+}
+.Icon_awesome-twitter {
+	overflow: visible;
+	position: absolute;
+	width: 36px;
+	height: 29.239px;
+	left: 12px;
+	top: 13.381px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#insta {
+	position: absolute;
+	width: 60px;
+	height: 56px;
+	left: 96px;
+	top: 0px;
+	overflow: visible;
+}
+#Trac_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(247,190,84,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_2 {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_simple-instagram {
+	fill: rgba(247,190,84,1);
+}
+.Icon_simple-instagram {
+	overflow: visible;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 12px;
+	top: 10px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#facebook {
+	position: absolute;
+	width: 59px;
+	height: 56px;
+	left: 192px;
+	top: 0px;
+	overflow: visible;
+}
+#Trac_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(247,190,84,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_3 {
+	overflow: visible;
+	position: absolute;
+	width: 59px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-facebook-f {
+	fill: rgba(247,190,84,1);
+}
+.Icon_awesome-facebook-f {
+	overflow: visible;
+	position: absolute;
+	width: 19.281px;
+	height: 36px;
+	left: 19.859px;
+	top: 10px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SE_CONNECTER_AVEC {
+	left: 89px;
+	top: 632px;
+	position: absolute;
+	overflow: visible;
+	width: 248px;
+	height: 26px;
+	text-align: left;
+	font-family: Damascus;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(112,112,112,1);
+}
+
