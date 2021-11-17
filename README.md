@@ -48,7 +48,7 @@ Corentin Istace
 
 E-mail: corentinistace1@gmail.com  
 Github: https://github.com/corentinIstace  
-Linkedin: https://www.linkedin.com/in/corentin-istace-03681020a/  
+Linkedin: https://www.linkedin.com/in/corentin-istace/   
 
 Naim Zian
 
